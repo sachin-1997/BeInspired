@@ -1,5 +1,7 @@
 # BeInspired
-BeInspired is the Random Quote generator and Quote writing web app using NodeJS, Express, EJS ,JSON,JavaScript,HTML,CSS
+* BeInspired is a Random Quote generator and Quote writing web app using NodeJS, Express, EJS ,JSON,JavaScript,HTML,CSS.
+* Quote Data is stored in the quotes.json files, using NodeJS & EJS template random quote gets rendered on the screen when Random quote button is clicked.
+* User can write his own quote and it gets stored in the userWrittenQuotes.json.
 
 ## Download and Installation
 
