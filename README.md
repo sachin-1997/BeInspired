@@ -18,6 +18,6 @@
 
 ## Live Preview
 
-This site was built using [Be-Inspired](https://be-inspired-1.herokuapp.com/)
+To view a live preview of this application click on this link: [Be-Inspired](https://be-inspired-1.herokuapp.com/)
 
 
