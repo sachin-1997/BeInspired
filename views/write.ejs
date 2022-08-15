@@ -1,0 +1,30 @@
+<%- include("partials/header.ejs"); -%>
+
+
+
+    <form action="/compose" method="post">
+        
+
+        <div class="heading"> 
+            <h2>Write A Quote</h2>
+        </div>
+
+        <div class="form-group author-name">
+            
+            <input class="form-control" type="text" name="authorTitle" placeholder="Author Name">
+        </div>
+
+        <div class="form-group quote-content">
+            <textarea class="form-control" placeholder="write your quote here" name="quoteBody" id="post" cols="30" rows="10"></textarea>
+        </div>
+        
+        <div>
+            <button type="submit" class="btn btn-primary publish" name="button">Publish</button>
+        </div>
+        
+
+    </form>
+
+
+
+<%- include("partials/footer.ejs"); -%>

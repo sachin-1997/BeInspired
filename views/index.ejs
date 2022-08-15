@@ -1,0 +1,28 @@
+<%- include("partials/header.ejs"); -%>
+ <div class="card text-center mx-auto bg-info text-white">
+        <div class="card-body text-center">
+            <div class="quote">
+                <p>
+                    "<%= textMarker %>"
+                </p>
+            </div>
+
+            <div class="quote">
+                <p>
+                    ~<%= authorMarker %>
+                </p>
+            </div>
+        </div>
+        <div class="operations">
+            <nav class="navbar navbar-dark bg-dark">
+                <form class="container-fluid justify-content-start"action="/" method="post">
+                <button type="submit" class="btn btn-outline-primary btn-lg" name="readbutton" value="r">Random quotes</button>
+                <button type="submit" class="btn btn-outline-primary btn-lg" name="writebutton" value="w">Write quotes</button>
+                </form>
+              </nav>
+        </div>
+
+        
+  </div>
+
+    <%- include("partials/footer.ejs"); -%>

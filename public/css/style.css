@@ -1,0 +1,73 @@
+
+
+.operations{
+    
+    position: relative;
+    margin-top: 50px;
+    width:70rem;
+
+}
+
+.author{
+    margin-top: 10px;
+    color:#A5C9CA ;
+}
+
+.card{
+    width:70rem;
+    height: 20rem;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.quote{
+    padding: 25px;
+    margin: 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.btn{
+    margin: auto;
+}
+
+.author-name{
+    align-items: center;
+    width: 500px;
+    margin: 0 auto
+
+}
+
+.heading{
+    position: relative;
+    margin-top: 10rem;
+    align-items: center;
+    width: 500px;
+    margin: 2rem auto;
+}
+
+.quote-content{
+    position: relative;
+    margin-top: 10rem;
+    align-items: center;
+    width: 500px;
+    margin: 2rem auto;
+    border-radius: 25%;
+
+}
+
+.publish{
+   position: relative;
+   margin-left: 520px;
+   width: 500px;
+}
+
+.card {
+    margin: 0 auto; 
+    float: none; 
+    margin-top: 100px; 
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
